@@ -21,7 +21,7 @@ def speak_to_grandma(phrase)
      elsif phrase == phrase.downcase
   		 return "HUH?! SPEAK UP, SONNY!"
    
-     elsif 2.times(phrase)
+     elsif phrase == phrase.downcase(2)
   		 return "HUH?! SPEAK UP, SONNY!"
     
      elsif phrase == phrase.upcase
