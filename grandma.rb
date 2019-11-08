@@ -21,6 +21,8 @@ def speak_to_grandma(phrase)
      elsif phrase == phrase.downcase
   		 return "HUH?! SPEAK UP, SONNY!"
    
+    
+    
     elsif phrase == phrase.upcase
        return "NO, NOT SINCE 1938!"
        
@@ -36,17 +38,7 @@ def speak_to_grandma(phrase)
     end
 end
 
-speak_to_grandma(phrase)
-
-describe '#speak_to_grandma' do
-  it 'responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!' do
-    expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'
-  end
-
-  it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
-    expect(speak_to_grandma('Hi Nana, how are you?')).to eq 'HUH?! SPEAK UP, SONNY!'
-  end
-
+ 
   it 'responds with HUH?! SPEAK UP, SONNY! for a second time' do
     expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, SONNY!'
   end
