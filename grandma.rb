@@ -18,8 +18,8 @@ def speak_to_grandma(phrase)
     elsif string.upcase
     puts "NO, NOT SINCE 1938!"
     else puts "I LOVE YOU TOO PUMPKIN"
+  end
 end
-
  
 #   describe '#speak_to_grandma' do
 #   it 'responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!' do
