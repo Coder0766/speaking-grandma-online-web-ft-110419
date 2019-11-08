@@ -21,9 +21,10 @@ def speak_to_grandma(phrase)
        return "NO, NOT SINCE 1938!"
     elsif phrase == "I LOVE YOU GRANDMA!"
        return "I LOVE YOU TOO PUMPKIN!"
-    elsif phrase >=
+    elsif phrase >= 2
   		return "HUH?! SPEAK UP, SONNY!"
-    elsif phase == phrase
+    elsif phrase == phrase.upcase
+      return "HUH?! SPEAK UP, SONNY!"
     end
 end
 
