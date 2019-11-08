@@ -35,10 +35,5 @@ def speak_to_grandma(phrase)
     end
 end
 
- 
- 
-  it 'responds with NO, NOT SINCE 1938! for a second time' do
-    expect(speak_to_grandma('WHAT?')).to eq "NO, NOT SINCE 1938!"
-  end
+ speak_to_grandma
 
-end
