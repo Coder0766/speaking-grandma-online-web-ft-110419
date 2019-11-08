@@ -21,7 +21,8 @@ def speak_to_grandma(phrase)
      elsif phrase == phrase.downcase
   		 return "HUH?! SPEAK UP, SONNY!"
    
-    
+     elsif phrase == phrase.downcase
+  		 return "HUH?! SPEAK UP, SONNY!"
     
     elsif phrase == phrase.upcase
        return "NO, NOT SINCE 1938!"
@@ -39,14 +40,7 @@ def speak_to_grandma(phrase)
 end
 
  
-  it 'responds with HUH?! SPEAK UP, SONNY! for a second time' do
-    expect(speak_to_grandma('Hi!')).to eq 'HUH?! SPEAK UP, SONNY!'
-  end
-
-  it 'responds with NO, NOT SINCE 1938! when she can hear you' do
-    expect(speak_to_grandma('WHAT DID YOU EAT TODAY?')).to eq "NO, NOT SINCE 1938!"
-  end
-
+ 
   it 'responds with NO, NOT SINCE 1938! for a second time' do
     expect(speak_to_grandma('WHAT?')).to eq "NO, NOT SINCE 1938!"
   end
